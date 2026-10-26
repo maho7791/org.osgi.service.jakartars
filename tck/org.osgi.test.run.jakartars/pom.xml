@@ -50,15 +50,9 @@
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.apache.geronimo.specs</groupId>
-			<artifactId>geronimo-json_1.1_spec</artifactId>
-			<version>${geronimo-json_1.1_spec.version}</version>
-			<scope>runtime</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.johnzon</groupId>
-			<artifactId>johnzon-core</artifactId>
-			<version>${johnzon-core.version}</version>
+			<groupId>org.eclipse.parsson</groupId>
+			<artifactId>jakarta.json</artifactId>
+			<version>${jakarta.json.version}</version>
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
@@ -293,12 +287,6 @@
 			<groupId>org.eclipse.osgi-technology.rest</groupId>
 			<artifactId>org.eclipse.osgitech.rest</artifactId>
 			<version>${org.eclipse.osgitech.rest.version}</version>
-			<scope>runtime</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.eclipse.osgi-technology.rest</groupId>
-			<artifactId>org.eclipse.osgitech.rest.config</artifactId>
-			<version>${org.eclipse.osgitech.rest.config.version}</version>
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
